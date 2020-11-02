@@ -1,0 +1,43 @@
+.container {
+    height: auto;
+    margin-bottom: 15%;
+    background: #e0dddd;
+  }
+.middle1 {
+    height: 18vh;
+    width: 100%;
+    background: url("../../../static/bjt.png");
+    background-repeat: round;
+    text-align: center;
+    z-index: 999;
+    
+    /* color: #fff; */
+  }
+
+.FontClass {
+    width: 100px;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 4%;
+    margin-top: -20%;
+    height: 4vh
+  }
+.video {
+    border-radius: 10px 10px 0 0;
+    width: 99%;
+    height: 100%;
+    margin-left: 1px;
+    margin-top: 30px;
+  }
+/* m3u8 */
+
+
+  .video-js .vjs-big-play-button{
+    /*
+    播放按钮换成圆形
+    */
+   height: 2em;
+   width: 2em;
+   line-height: 2em;
+   border-radius: 1em;
+   }

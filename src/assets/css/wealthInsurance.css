@@ -1,0 +1,436 @@
+.FontClass {
+  width: 100px;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-left: 4%;
+  margin-top: -20%;
+  height: 4vh
+}
+/deep/ .van-grid-item__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 90%;
+  padding: 16px 8px;
+  background-color: #fff;
+}
+.class1 {
+  width: 16%;
+  margin-top: 3%;
+  margin-left: 5%;
+  height: 59%;
+  background: url("../../../static/rbkb.png") no-repeat top;
+  background-size: 70% 80%;
+  color: #373737;
+  font-size: 5px;
+  /* -moz-background-size:60% 80%;
+   -webkit-background-size:100% 100%;
+   -o-background-size:60% 80%; */
+}
+
+.smallclass1 {
+  font-size: 12px;
+  padding-top: 81%;
+  color: #373737;
+  padding-left: 3%;
+}
+
+.echarts {
+  width: 100%;
+  height: 250px;
+  opacity: .8;
+}
+
+.mapEcharts {
+  width: 100%;
+  height: 270px;
+}
+
+.echarts1 {
+  width: 100%;
+  height: 250px;
+  opacity: 10.5;
+}
+
+.echarts2 {
+  width: 100%;
+  height: 250px;
+  opacity: .8;
+}
+
+.echarts3 {
+  width: 100%;
+  height: 250px;
+  opacity: .8;
+}
+
+.echarts4 {
+  margin-top: 7%;
+  width: 100%;
+  height: 250px;
+  opacity: .8;
+}
+
+.daohangClass {
+  border-radius: 7px 8px 7px 7px;
+  height: auto;
+  /* flex-wrap: wrap; */
+  /* white-space: nowrap;
+  overflow-x: auto; */
+  margin-left: 2%;
+  width: 95%;
+  z-index: 999;
+  margin-top: 0%;
+  background: #FFFFFF;
+}
+
+.container {
+  height: auto;
+  background: #e0dddd;
+}
+
+.van-nav-bar {
+  background: red;
+}
+
+.van-nav-bar .van-icon {
+  color: #fff;
+}
+
+.van-nav-bar__title {
+  font-size: 0.3rem;
+  color: #fff;
+  max-width: 40%;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.nav-span {
+  font-size: 0.15rem;
+  color: #fff;
+  width: 1rem;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.nav-img {
+  line-height: 0.5rem;
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.middle1 {
+  height: 18vh;
+  width: 100%;
+  background: url("../../../static/bjt.png");
+  background-repeat: round;
+  text-align: center;
+  z-index: 999;
+
+  /* color: #fff; */
+}
+
+/* .middle1 p:first-child {
+  font-size: 0.25rem;
+  padding-top: 0.25rem;
+  letter-spacing: 0.02rem;
+} */
+.middle1 p:first-child {
+  font-size: 0.5rem;
+  font-weight: 500;
+  padding: 2% 0;
+  letter-spacing: 0.02rem;
+}
+
+.middle1 p:nth-child(2) {
+  /* font-size: 0.5rem; */
+  font-weight: 500;
+  padding: 1% 0;
+  letter-spacing: 0.02rem;
+}
+
+.middle1 p:last-child {
+  font-size: 0.25rem;
+}
+
+.middle1 p:last-child span:first-child {
+  display: inline-block;
+  background: #e00;
+  padding: 0.1rem;
+  border-radius: 0.2rem;
+  letter-spacing: 0.03rem;
+}
+
+.con-table {
+  width: 98%;
+  margin-left: 1%;
+}
+
+/deep/ .van-nav-bar__title {
+  font-size: 16px;
+  color: white;
+}
+
+/deep/ .van-hairline--bottom::after {
+  border-bottom-width: 0px;
+}
+
+/* .con-table /deep/ .el-table td, .el-table th{
+  padding: 0!important;
+  font-size: .1rem;
+}
+.con-table /deep/ .el-table .cell{
+  padding-right: 0;
+} */
+.van-nav-bar__title {
+  font-size: 18px;
+}
+
+.main-bottom {
+  position: absolute;
+  top: 64%;
+  height: 44%;
+  width: 94%;
+  left: 3%;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.imgtem {
+  background: url(/static/img/zy-bg.c31f41c.png) no-repeat;
+  background-size: 100% 100%;
+  width: 97%;
+  background: red;
+  height: 0.7rem;
+  color: #ffffff;
+  padding-left: 3%;
+  border-radius: 8px 8px 0px 0px;
+  padding-top: 0.1rem;
+}
+
+.header-img-right {
+  float: right;
+  width: .6rem;
+  height: .6rem;
+}
+
+.mainTable {
+  background-color: #fff;
+  width: 100%;
+  height: 86%;
+  border-radius: 0px 0px 8px 8px;
+  overflow: auto;
+}
+
+.mainTable /deep/ .el-tabs__er {
+  margin: 0 !important;
+}
+
+.mainTable /deep/ .el-tabs__header {
+  margin: 0 !important;
+}
+
+/deep/.el-tabs__header {
+  position: relative;
+  margin: .1rem 0;
+}
+
+.table-two {
+  width: 98%;
+  margin-left: 1%;
+  font-size: .2rem !important;
+}
+
+.van-overlay {
+  z-index: 999;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.overlay-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.overlay-block {
+  width: 94%;
+  height: 40%;
+  background-color: #fff;
+}
+
+.overlay-title {
+  margin: .3rem 0 0 .3rem !important;
+
+}
+
+div.overlay-title::before {
+  content: "";
+  display: inline-block;
+  width: .1rem;
+  height: 100%;
+  background: red;
+}
+
+.overly-tab {
+  margin-top: 5%;
+}
+
+.overly-tab.van-tab {
+  text-align: left !important;
+}
+
+.overlay-block.van-tabs__line {
+  display: none;
+}
+
+.van-tab--active {
+  color: #323233;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 1.1rem;
+}
+
+.comfirm-btns {
+  margin-top: 33%;
+  width: 100%;
+}
+
+.confirm-normal {
+  border: 1px solid #aaa;
+  text-align: center;
+  padding: .1rem .5rem;
+  letter-spacing: .1rem;
+}
+
+.confirm-active {
+  background: red;
+  color: #ffffff;
+}
+
+/* /deep/ .el-table td, .el-table th{
+  padding: 0;
+  font-size: .2rem;
+} */
+/deep/.el-table .cell {
+  padding-right: 0;
+}
+/deep/ .van-card__content {
+  position: absolute;
+  min-width: 0;
+  min-height: 10px;
+}
+/deep/ .van-card__thumb {
+  position: relative;
+  -webkit-flex: none;
+  flex: none;
+  width: 5vh;
+  height: 5vh;
+}
+/deep/ .van-card__thumb img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+/deep/ .van-image {
+  width: 0%;
+    height: 0%;
+}
+/deep/ .van-card__title {
+  max-height: 27px;
+  font-weight: 500;
+  line-height: 28px;
+  height: 5vh;
+  margin-top: 5vh;
+  margin-left: -5px;
+}
+/deep/ .van-card__header {
+  height: 0px;
+}
+.van-card {
+  border-radius: 6%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0px 12px 1px 2px;
+  color: #323233;
+  width: 20%;
+  height: 10vh;
+  font-size: 12px;
+  background-color: #FFFFFF;
+}
+/deep/ .cardClass {
+  border-radius: 0%;
+  margin-left: 0%;
+    width: 100%;
+  height: auto;
+  margin-top:2%;
+  background-color: #FFFFFF;
+  padding: 8px 16px;
+  color: #323233;
+}
+/deep/ .cardClass .van-card__content {
+  position: absolute;
+  margin-top: 0.5%;
+  margin-left: 7%;
+}
+/deep/ .cardClass .van-card__thumb {
+  width: 60px;
+  height: 60px;
+}
+/deep/ .cardClass .van-card__thumb img {
+  width: 30%;
+  height: 30%;
+  border-radius: 8px;
+}
+/deep/ .cardClass .van-card__title {
+  font-size: 14px;
+  height: 6vh;
+  margin-top: -6%;
+  margin-left: 0%;
+  width: 100%;
+}
+/deep/ .cardClass .van-card__footer {
+  height: auto;
+}
+/deep/ .van-grid-item__content--center {
+  background: #EDEDED;
+  border: 2px solid #FFFFFF;
+}
+.tableClass1 {
+width: 96%;
+margin-top:1%;
+margin-left: 2%;
+border-radius: 5px;
+}
+/deep/ .el-table__body, .el-table__footer, .el-table__header {
+  table-layout: fixed;
+  width: 100% !important;
+  border-collapse: separate;
+}
+/deep/ .tableClass1 .yellow {
+  background-color: #F5F5F5 !important;
+}
+
+/deep/ .tableClass1 .blue {
+  background-color: #F5F5F5 !important;
+}
+
+/deep/ .tableClass1 td, .tableClass1 th.is-leaf {
+  border-bottom: 6px solid #FFFFFF;
+}
+
+/deep/ .tableClass1::before {
+  height: 0px !important;
+}
+
+/deep/ .tableClass1 td, .tableClass1 th {
+  padding: 0px 0  !important;
+}
