@@ -2,7 +2,7 @@
     <!-- 背景图 -->
     <div class="container">
     <van-sticky>
-      <div class="middle1"></div>
+      <!-- <div class="middle1"></div> -->
       <div class="FontClass"></div>
       <!--菜单栏-->
     </van-sticky>
